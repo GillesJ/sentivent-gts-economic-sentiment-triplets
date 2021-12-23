@@ -1,0 +1,509 @@
+
+==========Split stats for JOINEDSEMEVAL==========
+---------DEV----------
+dev: {'sentences_n': 907, 'target_n': 1325, 'opinion_n': 1550, 'positive_n': 905, 'positive_pct': 68.3, 'negative_n': 318, 'negative_pct': 24.0, 'neutral_n': 102, 'neutral_pct': 7.7}
+ROBERTA-BASE seq. len max:	91	min:	4	mean: 19.93274531422271	median;	18.0
+53 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.55898566703418% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	91	min:	4	mean: 19.93274531422271	median;	18.0
+53 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.55898566703418% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	92	min:	4	mean: 20.178610804851157	median;	18.0
+56 max_seq_length will not truncate 99% of input text.
+49 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.55898566703418% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 3624, 'target_n': 5414, 'opinion_n': 6267, 'positive_n': 3705, 'positive_pct': 68.4, 'negative_n': 1371, 'negative_pct': 25.3, 'neutral_n': 338, 'neutral_pct': 6.2}
+ROBERTA-BASE seq. len max:	87	min:	4	mean: 20.22792494481236	median;	18.0
+56 max_seq_length will not truncate 99% of input text.
+50 max_seq_length will not truncate 98% of input text.
+40 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.53090507726269% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	4	mean: 20.22792494481236	median;	18.0
+56 max_seq_length will not truncate 99% of input text.
+50 max_seq_length will not truncate 98% of input text.
+40 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.53090507726269% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	92	min:	4	mean: 20.431567328918323	median;	18.0
+56 max_seq_length will not truncate 99% of input text.
+51 max_seq_length will not truncate 98% of input text.
+41 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.4757174392936% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 1478, 'target_n': 2212, 'opinion_n': 2573, 'positive_n': 1609, 'positive_pct': 72.7, 'neutral_n': 165, 'neutral_pct': 7.5, 'negative_n': 438, 'negative_pct': 19.8}
+ROBERTA-BASE seq. len max:	98	min:	4	mean: 19.228010825439785	median;	17.0
+55 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39106901217862% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	98	min:	4	mean: 19.228010825439785	median;	17.0
+55 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39106901217862% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	93	min:	4	mean: 19.487144790257105	median;	17.0
+55 max_seq_length will not truncate 99% of input text.
+50 max_seq_length will not truncate 98% of input text.
+41 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.42489851150204% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 6009, 'target_n': 8951, 'opinion_n': 10390, 'positive_n': 6219, 'positive_pct': 69.5, 'negative_n': 2127, 'negative_pct': 23.8, 'neutral_n': 605, 'neutral_pct': 6.8}
+
+==========Split stats for LAP14==========
+---------DEV----------
+dev: {'sentences_n': 225, 'target_n': 333, 'opinion_n': 383, 'negative_n': 118, 'negative_pct': 35.4, 'positive_n': 173, 'positive_pct': 52.0, 'neutral_n': 42, 'neutral_pct': 12.6}
+ROBERTA-BASE seq. len max:	91	min:	5	mean: 22.351111111111113	median;	20.0
+65 max_seq_length will not truncate 99% of input text.
+57 max_seq_length will not truncate 98% of input text.
+44 max_seq_length will not truncate 95% of input text.
+36 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.66666666666667% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	91	min:	5	mean: 22.351111111111113	median;	20.0
+65 max_seq_length will not truncate 99% of input text.
+57 max_seq_length will not truncate 98% of input text.
+44 max_seq_length will not truncate 95% of input text.
+36 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.66666666666667% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	92	min:	5	mean: 22.724444444444444	median;	20.0
+67 max_seq_length will not truncate 99% of input text.
+60 max_seq_length will not truncate 98% of input text.
+44 max_seq_length will not truncate 95% of input text.
+36 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.66666666666667% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 899, 'target_n': 1264, 'opinion_n': 1452, 'negative_n': 466, 'negative_pct': 36.9, 'positive_n': 691, 'positive_pct': 54.7, 'neutral_n': 107, 'neutral_pct': 8.5}
+ROBERTA-BASE seq. len max:	87	min:	5	mean: 22.29477196885428	median;	20.0
+63 max_seq_length will not truncate 99% of input text.
+55 max_seq_length will not truncate 98% of input text.
+44 max_seq_length will not truncate 95% of input text.
+37 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.11012235817574% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	5	mean: 22.29477196885428	median;	20.0
+63 max_seq_length will not truncate 99% of input text.
+55 max_seq_length will not truncate 98% of input text.
+44 max_seq_length will not truncate 95% of input text.
+37 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.11012235817574% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	87	min:	5	mean: 22.550611790878754	median;	20.0
+63 max_seq_length will not truncate 99% of input text.
+55 max_seq_length will not truncate 98% of input text.
+45 max_seq_length will not truncate 95% of input text.
+38 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.99888765294772% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 332, 'target_n': 468, 'opinion_n': 547, 'positive_n': 305, 'positive_pct': 65.2, 'negative_n': 101, 'negative_pct': 21.6, 'neutral_n': 62, 'neutral_pct': 13.2}
+ROBERTA-BASE seq. len max:	87	min:	5	mean: 18.647590361445783	median;	16.0
+56 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+29 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39759036144578% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	5	mean: 18.647590361445783	median;	16.0
+56 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+29 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39759036144578% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	90	min:	5	mean: 19.0	median;	17.0
+55 max_seq_length will not truncate 99% of input text.
+50 max_seq_length will not truncate 98% of input text.
+41 max_seq_length will not truncate 95% of input text.
+30 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39759036144578% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 1456, 'target_n': 2065, 'opinion_n': 2382, 'negative_n': 685, 'negative_pct': 33.2, 'positive_n': 1169, 'positive_pct': 56.6, 'neutral_n': 211, 'neutral_pct': 10.2}
+
+==========Split stats for RES14==========
+---------DEV----------
+dev: {'sentences_n': 315, 'target_n': 489, 'opinion_n': 580, 'negative_n': 93, 'negative_pct': 19.0, 'positive_n': 352, 'positive_pct': 72.0, 'neutral_n': 44, 'neutral_pct': 9.0}
+ROBERTA-BASE seq. len max:	83	min:	5	mean: 20.225396825396825	median;	19.0
+48 max_seq_length will not truncate 99% of input text.
+46 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.68253968253968% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	83	min:	5	mean: 20.225396825396825	median;	19.0
+48 max_seq_length will not truncate 99% of input text.
+46 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.68253968253968% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	78	min:	5	mean: 20.35238095238095	median;	19.0
+50 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+38 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.68253968253968% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 1259, 'target_n': 2066, 'opinion_n': 2356, 'positive_n': 1456, 'positive_pct': 70.5, 'negative_n': 446, 'negative_pct': 21.6, 'neutral_n': 164, 'neutral_pct': 7.9}
+ROBERTA-BASE seq. len max:	86	min:	5	mean: 20.76965845909452	median;	19.0
+53 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.68228752978554% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	86	min:	5	mean: 20.76965845909452	median;	19.0
+53 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.68228752978554% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	88	min:	5	mean: 20.941223193010327	median;	19.0
+55 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+40 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.60285941223194% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 493, 'target_n': 851, 'opinion_n': 1008, 'positive_n': 651, 'positive_pct': 76.5, 'negative_n': 141, 'negative_pct': 16.6, 'neutral_n': 59, 'neutral_pct': 6.9}
+ROBERTA-BASE seq. len max:	74	min:	7	mean: 20.21703853955375	median;	18.0
+53 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.59432048681542% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	74	min:	7	mean: 20.21703853955375	median;	18.0
+53 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.59432048681542% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	78	min:	7	mean: 20.4158215010142	median;	18.0
+55 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+40 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.59432048681542% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 2067, 'target_n': 3406, 'opinion_n': 3944, 'negative_n': 680, 'negative_pct': 20.0, 'positive_n': 2459, 'positive_pct': 72.2, 'neutral_n': 267, 'neutral_pct': 7.8}
+
+==========Split stats for RES15==========
+---------DEV----------
+dev: {'sentences_n': 151, 'target_n': 205, 'opinion_n': 239, 'positive_n': 156, 'positive_pct': 76.1, 'negative_n': 41, 'negative_pct': 20.0, 'neutral_n': 8, 'neutral_pct': 3.9}
+ROBERTA-BASE seq. len max:	49	min:	5	mean: 18.013245033112582	median;	17.0
+42 max_seq_length will not truncate 99% of input text.
+38 max_seq_length will not truncate 98% of input text.
+32 max_seq_length will not truncate 95% of input text.
+29 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	49	min:	5	mean: 18.013245033112582	median;	17.0
+42 max_seq_length will not truncate 99% of input text.
+38 max_seq_length will not truncate 98% of input text.
+32 max_seq_length will not truncate 95% of input text.
+29 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	49	min:	5	mean: 18.264900662251655	median;	17.0
+44 max_seq_length will not truncate 99% of input text.
+38 max_seq_length will not truncate 98% of input text.
+34 max_seq_length will not truncate 95% of input text.
+30 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 603, 'target_n': 871, 'opinion_n': 1038, 'positive_n': 668, 'positive_pct': 76.7, 'negative_n': 179, 'negative_pct': 20.6, 'neutral_n': 24, 'neutral_pct': 2.8}
+ROBERTA-BASE seq. len max:	87	min:	5	mean: 18.33830845771144	median;	17.0
+50 max_seq_length will not truncate 99% of input text.
+45 max_seq_length will not truncate 98% of input text.
+35 max_seq_length will not truncate 95% of input text.
+30 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.83416252072969% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	5	mean: 18.33830845771144	median;	17.0
+50 max_seq_length will not truncate 99% of input text.
+45 max_seq_length will not truncate 98% of input text.
+35 max_seq_length will not truncate 95% of input text.
+30 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.83416252072969% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	92	min:	5	mean: 18.54063018242123	median;	16.0
+51 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+36 max_seq_length will not truncate 95% of input text.
+30 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.83416252072969% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 325, 'target_n': 436, 'opinion_n': 493, 'positive_n': 293, 'positive_pct': 67.2, 'negative_n': 124, 'negative_pct': 28.4, 'neutral_n': 19, 'neutral_pct': 4.4}
+ROBERTA-BASE seq. len max:	74	min:	4	mean: 19.19076923076923	median;	16.0
+59 max_seq_length will not truncate 99% of input text.
+51 max_seq_length will not truncate 98% of input text.
+42 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.07692307692308% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	74	min:	4	mean: 19.19076923076923	median;	16.0
+59 max_seq_length will not truncate 99% of input text.
+51 max_seq_length will not truncate 98% of input text.
+42 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.07692307692308% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	79	min:	4	mean: 19.40923076923077	median;	17.0
+59 max_seq_length will not truncate 99% of input text.
+53 max_seq_length will not truncate 98% of input text.
+43 max_seq_length will not truncate 95% of input text.
+34 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.38461538461539% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 1079, 'target_n': 1512, 'opinion_n': 1770, 'positive_n': 1117, 'positive_pct': 73.9, 'negative_n': 344, 'negative_pct': 22.8, 'neutral_n': 51, 'neutral_pct': 3.4}
+
+==========Split stats for RES16==========
+---------DEV----------
+dev: {'sentences_n': 216, 'target_n': 298, 'opinion_n': 348, 'positive_n': 224, 'positive_pct': 75.2, 'negative_n': 66, 'negative_pct': 22.1, 'neutral_n': 8, 'neutral_pct': 2.7}
+ROBERTA-BASE seq. len max:	60	min:	4	mean: 18.328703703703702	median;	16.0
+49 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	60	min:	4	mean: 18.328703703703702	median;	16.0
+49 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	60	min:	4	mean: 18.61111111111111	median;	16.0
+51 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+39 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 863, 'target_n': 1213, 'opinion_n': 1421, 'negative_n': 280, 'negative_pct': 23.1, 'positive_n': 890, 'positive_pct': 73.4, 'neutral_n': 43, 'neutral_pct': 3.5}
+ROBERTA-BASE seq. len max:	87	min:	4	mean: 18.60486674391657	median;	17.0
+52 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+36 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.53650057937428% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	4	mean: 18.60486674391657	median;	17.0
+52 max_seq_length will not truncate 99% of input text.
+47 max_seq_length will not truncate 98% of input text.
+36 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.53650057937428% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	92	min:	4	mean: 18.801853997682503	median;	17.0
+54 max_seq_length will not truncate 99% of input text.
+48 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+31 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.59443800695249% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 328, 'target_n': 457, 'opinion_n': 525, 'positive_n': 360, 'positive_pct': 78.8, 'neutral_n': 25, 'neutral_pct': 5.5, 'negative_n': 72, 'negative_pct': 15.8}
+ROBERTA-BASE seq. len max:	98	min:	4	mean: 18.365853658536587	median;	16.0
+49 max_seq_length will not truncate 99% of input text.
+46 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39024390243902% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	98	min:	4	mean: 18.365853658536587	median;	16.0
+49 max_seq_length will not truncate 99% of input text.
+46 max_seq_length will not truncate 98% of input text.
+37 max_seq_length will not truncate 95% of input text.
+32 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39024390243902% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	93	min:	4	mean: 18.661585365853657	median;	16.0
+51 max_seq_length will not truncate 99% of input text.
+46 max_seq_length will not truncate 98% of input text.
+38 max_seq_length will not truncate 95% of input text.
+33 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 99.39024390243902% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 1407, 'target_n': 1968, 'opinion_n': 2294, 'positive_n': 1474, 'positive_pct': 74.9, 'negative_n': 418, 'negative_pct': 21.2, 'neutral_n': 76, 'neutral_pct': 3.9}
+
+==========Split stats for SENTIVENT-EVENT-DEVPROTO==========
+---------DEV----------
+dev: {'sentences_n': 681, 'target_n': 941, 'opinion_n': 1060, 'negative_n': 257, 'negative_pct': 27.3, 'positive_n': 563, 'positive_pct': 59.8, 'neutral_n': 121, 'neutral_pct': 12.9}
+ROBERTA-BASE seq. len max:	90	min:	4	mean: 31.211453744493394	median;	30.0
+75 max_seq_length will not truncate 99% of input text.
+66 max_seq_length will not truncate 98% of input text.
+57 max_seq_length will not truncate 95% of input text.
+51 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.3568281938326% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	90	min:	4	mean: 31.211453744493394	median;	30.0
+75 max_seq_length will not truncate 99% of input text.
+66 max_seq_length will not truncate 98% of input text.
+57 max_seq_length will not truncate 95% of input text.
+51 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.3568281938326% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	87	min:	3	mean: 31.68869309838473	median;	30.0
+74 max_seq_length will not truncate 99% of input text.
+67 max_seq_length will not truncate 98% of input text.
+59 max_seq_length will not truncate 95% of input text.
+52 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.13656387665198% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 5475, 'target_n': 6726, 'opinion_n': 7407, 'positive_n': 4153, 'positive_pct': 61.7, 'neutral_n': 787, 'neutral_pct': 11.7, 'negative_n': 1786, 'negative_pct': 26.6}
+ROBERTA-BASE seq. len max:	159	min:	3	mean: 29.305205479452056	median;	27.0
+70 max_seq_length will not truncate 99% of input text.
+63 max_seq_length will not truncate 98% of input text.
+55 max_seq_length will not truncate 95% of input text.
+48 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.14611872146119% of input text.
+128 max_seq_len will not truncate 99.96347031963471% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	159	min:	3	mean: 29.305205479452056	median;	27.0
+70 max_seq_length will not truncate 99% of input text.
+63 max_seq_length will not truncate 98% of input text.
+55 max_seq_length will not truncate 95% of input text.
+48 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.14611872146119% of input text.
+128 max_seq_len will not truncate 99.96347031963471% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	166	min:	3	mean: 29.635068493150683	median;	28.0
+71 max_seq_length will not truncate 99% of input text.
+65 max_seq_length will not truncate 98% of input text.
+56 max_seq_length will not truncate 95% of input text.
+48 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.88127853881278% of input text.
+128 max_seq_len will not truncate 99.96347031963471% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 727, 'target_n': 1180, 'opinion_n': 1282, 'negative_n': 301, 'negative_pct': 25.5, 'neutral_n': 195, 'neutral_pct': 16.5, 'positive_n': 684, 'positive_pct': 58.0}
+ROBERTA-BASE seq. len max:	87	min:	4	mean: 28.283356258596974	median;	26.0
+67 max_seq_length will not truncate 99% of input text.
+61 max_seq_length will not truncate 98% of input text.
+53 max_seq_length will not truncate 95% of input text.
+46 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.4869325997249% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	4	mean: 28.283356258596974	median;	26.0
+67 max_seq_length will not truncate 99% of input text.
+61 max_seq_length will not truncate 98% of input text.
+53 max_seq_length will not truncate 95% of input text.
+46 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.4869325997249% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	85	min:	3	mean: 28.419532324621734	median;	27.0
+68 max_seq_length will not truncate 99% of input text.
+62 max_seq_length will not truncate 98% of input text.
+54 max_seq_length will not truncate 95% of input text.
+47 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.2806052269601% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 6883, 'target_n': 8847, 'opinion_n': 9749, 'negative_n': 2344, 'negative_pct': 26.5, 'positive_n': 5400, 'positive_pct': 61.0, 'neutral_n': 1103, 'neutral_pct': 12.5}
+
+==========Split stats for SENTIVENT-EVENT-DEVPROTO-NO-EMPTY==========
+---------DEV----------
+dev: {'sentences_n': 462, 'target_n': 941, 'opinion_n': 1060, 'negative_n': 257, 'negative_pct': 27.3, 'positive_n': 563, 'positive_pct': 59.8, 'neutral_n': 121, 'neutral_pct': 12.9}
+ROBERTA-BASE seq. len max:	90	min:	6	mean: 33.42857142857143	median;	32.0
+76 max_seq_length will not truncate 99% of input text.
+69 max_seq_length will not truncate 98% of input text.
+58 max_seq_length will not truncate 95% of input text.
+52 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 96.96969696969697% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	90	min:	6	mean: 33.42857142857143	median;	32.0
+76 max_seq_length will not truncate 99% of input text.
+69 max_seq_length will not truncate 98% of input text.
+58 max_seq_length will not truncate 95% of input text.
+52 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 96.96969696969697% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	87	min:	5	mean: 34.056277056277054	median;	32.0
+77 max_seq_length will not truncate 99% of input text.
+71 max_seq_length will not truncate 98% of input text.
+60 max_seq_length will not truncate 95% of input text.
+52 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 96.64502164502164% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+---------TRAIN----------
+train: {'sentences_n': 3353, 'target_n': 6726, 'opinion_n': 7407, 'positive_n': 4153, 'positive_pct': 61.7, 'neutral_n': 787, 'neutral_pct': 11.7, 'negative_n': 1786, 'negative_pct': 26.6}
+ROBERTA-BASE seq. len max:	159	min:	6	mean: 31.99612287503728	median;	30.0
+73 max_seq_length will not truncate 99% of input text.
+66 max_seq_length will not truncate 98% of input text.
+57 max_seq_length will not truncate 95% of input text.
+51 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.65881300328064% of input text.
+128 max_seq_len will not truncate 99.97017596182523% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	159	min:	6	mean: 31.99612287503728	median;	30.0
+73 max_seq_length will not truncate 99% of input text.
+66 max_seq_length will not truncate 98% of input text.
+57 max_seq_length will not truncate 95% of input text.
+51 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.65881300328064% of input text.
+128 max_seq_len will not truncate 99.97017596182523% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	166	min:	4	mean: 32.37160751565762	median;	31.0
+74 max_seq_length will not truncate 99% of input text.
+67 max_seq_length will not truncate 98% of input text.
+58 max_seq_length will not truncate 95% of input text.
+52 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 97.30092454518342% of input text.
+128 max_seq_len will not truncate 99.97017596182523% of input text.
+256 max_seq_len will not truncate 100.0% of input text.
+---------TEST----------
+test: {'sentences_n': 500, 'target_n': 1180, 'opinion_n': 1282, 'negative_n': 301, 'negative_pct': 25.5, 'neutral_n': 195, 'neutral_pct': 16.5, 'positive_n': 684, 'positive_pct': 58.0}
+ROBERTA-BASE seq. len max:	87	min:	8	mean: 31.168	median;	29.0
+69 max_seq_length will not truncate 99% of input text.
+62 max_seq_length will not truncate 98% of input text.
+56 max_seq_length will not truncate 95% of input text.
+49 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.3% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+ROBERTA-LARGE seq. len max:	87	min:	8	mean: 31.168	median;	29.0
+69 max_seq_length will not truncate 99% of input text.
+62 max_seq_length will not truncate 98% of input text.
+56 max_seq_length will not truncate 95% of input text.
+49 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.3% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+BERT-BASE-UNCASED seq. len max:	85	min:	8	mean: 31.326	median;	29.0
+69 max_seq_length will not truncate 99% of input text.
+64 max_seq_length will not truncate 98% of input text.
+57 max_seq_length will not truncate 95% of input text.
+49 max_seq_length will not truncate 90% of input text.
+64 max_seq_len will not truncate 98.1% of input text.
+128 max_seq_len will not truncate 100.0% of input text.
+all: {'sentences_n': 4315, 'target_n': 8847, 'opinion_n': 9749, 'negative_n': 2344, 'negative_pct': 26.5, 'positive_n': 5400, 'positive_pct': 61.0, 'neutral_n': 1103, 'neutral_pct': 12.5}
+------Dataset stats
+Ponti sentence token length:	17.0 avg	2 min	83 max
+Ponti avg. opinion token length: 1.18, avg. aspect token length 1.44
+Senti sentence token length:	27.0 avg	2 min	149 max
+Senti avg. opinion token length: 2.35, avg. aspect token length 2.51
